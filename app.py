@@ -29,6 +29,6 @@ if st.button("✨ Pick the Huddle Leader ✨"):
         """,
         unsafe_allow_html=True,
     )
-     st.balloons() 
+    st.balloons() 
 else:
     st.info("Click the button to pick a random huddle leader!")
