@@ -22,7 +22,7 @@ if st.button("✨ Pick the Huddle Leader ✨"):
     random_name = random.choice(data['Agents'])
     st.markdown(
         f"""
-        <div style="background-color:#ffeb3b;padding:15px;border-radius:10px;margin-top:20px;">
+        <div style="background-color:#05006D;padding:15px;border-radius:10px;margin-top:20px;">
             <h2 style="text-align:center;color:#03A94A;">🎉 Next week's huddle will be handled by:</h2>
             <h1 style="text-align:center;color:#040403;">{random_name}🙌</h1>
         </div>
