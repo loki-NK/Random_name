@@ -17,16 +17,6 @@ data = load_data()
 st.title("🌟 **Huddle Leader Picker** 🌟")
 st.subheader("Let's find out who will lead next week's huddle!")
 
-# Add a decorative banner
-st.markdown(
-    """
-    <div style="background-color:#f7f7f9;padding:10px;border-radius:10px;margin-bottom:20px;">
-        <h4 style="color:#4CAF50;text-align:center;">Empowering Collaboration for the Week Ahead!</h4>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
 # Button to pick a random name
 if st.button("✨ Pick the Huddle Leader ✨"):
     random_name = random.choice(data['Agents'])
