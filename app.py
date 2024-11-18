@@ -14,6 +14,7 @@ def load_data():
 data = load_data()
 
 # Page title and header
+st.snow()
 st.title("🌟 **Huddle Leader Picker** 🌟")
 st.subheader("Let's find out who will lead next week's huddle!")
 
