@@ -11,7 +11,7 @@ def load_data():
 data = load_data()
 
 # Title
-st.title("Random Name Picker")
+st.title("Who will led the next week's huddle?")
 
 # Button to pick a random name
 if st.button("Pick a Random Name"):
