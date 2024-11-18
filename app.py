@@ -1,6 +1,9 @@
-import streamlit as st
+\import streamlit as st
 import pandas as pd
 import random
+
+# Set page configuration (must be the first Streamlit command)
+st.set_page_config(page_title="Who will handle the huddle?", page_icon="🌟", layout="centered")
 
 # Load the CSV file
 @st.cache
@@ -11,7 +14,6 @@ def load_data():
 data = load_data()
 
 # Page title and header
-st.set_page_config(page_title="Who will handle the huddle?", page_icon="🌟", layout="centered")
 st.title("🌟 **Huddle Leader Picker** 🌟")
 st.subheader("Let's find out who will lead next week's huddle!")
 
