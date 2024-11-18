@@ -16,10 +16,5 @@ st.title("Random Name Picker")
 # Button to pick a random name
 if st.button("Pick a Random Name"):
     random_name = random.choice(data['Agents'])
-    st.write(f"🎉 Random Name: **{random_name}**")
+    st.write(f"🎉 Next week huddle will be handled by: **{random_name}**")
 
-st.write("Upload a new CSV file below (optional):")
-uploaded_file = st.file_uploader("Choose a file")
-if uploaded_file:
-    data = pd.read_csv(uploaded_file)
-    st.write("✅ File uploaded successfully!")
