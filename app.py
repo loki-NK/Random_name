@@ -39,6 +39,3 @@ if st.button("✨ Pick the Huddle Leader ✨"):
     )
 else:
     st.info("Click the button to pick a random huddle leader!")
-    
-    unsafe_allow_html=True,
-)
