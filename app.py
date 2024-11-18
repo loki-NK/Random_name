@@ -15,7 +15,7 @@ st.title("Random Name Picker")
 
 # Button to pick a random name
 if st.button("Pick a Random Name"):
-    random_name = random.choice(data['Name'])
+    random_name = random.choice(data['Agents'])
     st.write(f"🎉 Random Name: **{random_name}**")
 
 st.write("Upload a new CSV file below (optional):")
