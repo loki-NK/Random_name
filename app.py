@@ -6,7 +6,7 @@ import random
 st.set_page_config(page_title="Who will handle the huddle?", page_icon="🌟", layout="centered")
 
 # Load the CSV file
-@st.cache
+@st.cache_data
 def load_data():
     return pd.read_csv("names.csv")
 
